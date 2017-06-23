@@ -1,1 +1,166 @@
+<!doctype html>
+<html> 
+<!--根标签，整个网页其它标签均在html成对标签之间-->
+<head>
+<!--头标签，页面标题内容在head成对标签之前！-->
+<meta charset="utf-8" />
+<title>咸蛋妹学html</title>
+<!--标题标签，显示网页标题名-->
+</head>
+<body style='background-color:#FFFACD;'>
+<!--内容标签，显示页面内容-->
+在百度传课上听孙胜利老师，讲解html知识，刚学到html是什么和基本知识部分。
+<hr />
+<h1>HTML<!--该标签为分行标签，div成对也是分行标签--></h1>
+学习网址：
+<a href='http://www.w3school.com.cn/' target='blank'>W3C</a>
+<a href='https://chuanke.baidu.com/'target='blank'>百度传课视频</a>
+<a href='http://imooc.com/' target='blank'>mooc慕课网</a>
+<a href='http://blog.csdn.net/' target='blank'>CSDN博客</a>
+<h2>第一部分</h2>
+&nbsp;教程前言：”HTML学习，主要依靠自学多练，及时做笔记和解决疑问。“<br />
 
+<h2>第二部分</h2>
+&nbsp;HTML基本认识<br />
+    <ol>
+		<li>HTML定义：超文本标注语言（超文本指文本、图片、视频、链接等）</li>
+		<li>html用处：静态网页构造，与css是网页基本使用的标注语言</li>
+		<li>html基本语法。基本成对出现的标签<html></html> <head><title></title></head><body></body><div></div></li>
+	</ol>
+	
+<h2>第三部分</h2>
+HTML常用标签<br />
+<h3>常用标签1</h3>
+	<ul>
+		<li>页面内容标题标签成对标签</li>
+		<li>水平线标签</li>
+		<li>换行标签</li>
+		<li>空格符号</li>
+		<li>无序排列标签</li>
+		<li>有序排列标签</li>
+		<li>段落标签成对标签</li>
+	</ul>
+<h3>常用标签2</h3>
+    <ul>
+
+		<li>学前准备（子元素，父元素，后代元素，兄弟元素）</li>
+		<li>插入图片</li>
+		<!--  <img src="图片来源" alt="替代文本，预防图片丢失" width="设置图片宽度，可以是数字或百分比"  height="设置图片高度" href=“超链接”/>  -->
+		<li>超链接</li>
+		<!--<a  href=“超链接” title="鼠标移动到此处，显示备注内容" target="blank 此为点击链接后新开一页" > -->
+		<li>指定图片区域加链接</li>
+		<!--<img src="图片来源" alt="替代文本，预防图片丢失" width="设置图片宽度，可以是数字或百分比"  height="设置图片高度" href=“超链接”  usemap="#jpg"/> -->
+		<!-- <map><area ip="jpg" name="jpg" shape="选择区域为何种形状，例如矩形rect，圆形circle" coords="该区域坐标，矩形一般以原图左上角为原点”></map> -->
+
+    </ul>
+实践TIME！！<br /><br />
+定义列表举例
+<hr />
+	<dl>
+		<dt>HTML</dt>
+		<dd>一种超文本标记语言<dd>
+		<dt>PHP</dt>
+		<dd>作用于服务器的脚本语言，超文本预处理器</dd>
+	</dl>
+插入图片举例
+<hr />
+<img src='图片集/html.jpg' alt='html图标' width='100' title='我是html'/>
+<img src='图片集/php.jpg' alt='php图标'width='100' title='我是php'/>
+
+<h3>常用标签3-表格</h3>
+
+	<table border='10'>
+		<tr><td colspan='5'>表格学习</td></tr>
+		<tr><td>标签种类</td><td>table标签</td><td>tr标签</td><td>td标签</td><td>th标签</td></tr>
+		<tr><td>对应属性</td><td>1.border设置边框宽度2.cellpadding字与单元格距离3.cellspacing单元格与单元格之间距离</td><td>属性不常用，此处不展开，tr指代行</td><td>1.rowsban文字行单元格横跨2.colsban文字列单元格横跨</td><td>无，本身加粗单元格文字</td><td></td></tr>
+	</table>
+
+<h3>常用标签4-表单</h3>	
+<form name='form'>
+<b>用户注册<br /></b>
+<b>个人信息<br /></b>
+姓&nbsp;&nbsp;&nbsp;&nbsp;名<input  type='text' size='10' value='我就试试' />   <br /><br />
+用户名<input type='text' size='10' value='兔八哥' /><br /><br />
+密&nbsp;&nbsp;&nbsp;&nbsp;码<input type='password' size='11'/><br /><br />
+再输入<input  type='password' size='11' /><br /><br />
+性别
+<input type='radio' id='sex' name='sex' /> <label for='boy'>男</label >
+<input type='radio' id='sex' name='sex' /><label for='girl'>女</label ><br /><br />
+爱好<input type='checkbox' />漫画<input type='checkbox' />小说<input type='checkbox' />运动<input type='checkbox' />学习<br /><br />
+头&nbsp;&nbsp;&nbsp;&nbsp;像<input type='file' size='10	'/><br /><br />
+居住地
+<select>
+	<optgroup label='北京'>
+		<option checked='checked'>西城</option>
+		<option>东城</option>
+		<option>海淀</option>
+		<option>朝阳</option>
+		<option>昌平</option>
+		<option>大兴</option>
+		<option>平谷</option>
+		<option>石景山</option>
+	</optgroup>
+	<optgroup label='上海'>
+		<option>徐汇</option>
+		<option>黄浦</option>
+		<option>长宁</option>
+		<option>闵行</option>
+		<option>闸北</option>
+		<option>浦东</option>
+		<option>奉贤</option>
+		<option>松浦</option>
+	</optgroup>
+</select>
+<br /><br />
+
+<b>联系方式<br /></b>
+电话<input type='text' /><br /><br />
+邮箱<input type='text'/><br /><br />
+提交<input type='submit' value='提交结果' />	<br /><br />
+
+<textarea cols='20' rows='5'>问题提交</textarea>
+
+<br /><br />
+
+<h3>常用标签5-标签写法和标签嵌套</h3>
+<h4>标签写法</h4>
+	<ol>
+		<li>单标签不能写关闭标签，比如br b hr input;可以省略部分关闭标签；可以省略某些全部标签.</li>
+		<li>具有boolean值得属性，可以直接写属性不写值，比如disabled，readonly，checked</li>
+		<li>属性值的引号可以删除，但值得内容包含空格符号，大于小于号，引号时，不能省略</li>
+	</ol>
+<h4>标签嵌套</h4>
+    <ol>
+		<li>HTML有必须嵌套的标签，比如ul ol li;dl dt;html body;head title等等.</li>
+		<li>块级元素可以嵌套内联元素</li>
+		<li>内联元素不可以嵌套内联元素</li>
+	</ol>
+<a href='http://blog.csdn.net/chen_zw/article/details/8713205' value='块级元素与内联元素区别说明'>html块级元素和内联元素区别详解<a>
+</form>
+<h2>第四部分/CSS</h2>
+学习内容链接：
+<a href='https://chuanke.baidu.com/v1731623-101679-173178.html' value='私房库学习' name='私房库学习' target='_blank'> 私房库 <a><br><br>
+<a href='https://www.bilibili.com/video/av5862916/?from=search&seid=1572744648217120650' value='星月学习' name='星月学习' target='_blank'>星月html+css+javascript<a><br><br>
+<a href='http://www.w3school.com.cn/example/csse_examples.asp' name='css' value='css' target='_blank'>w3school css学习<a><br><br>
+
+<image src='图片集/css.jpg'  alt='css图片' usemap='#css图片分区链接' width='200'/>
+<map name='css图片分区链接' >
+<area href='http://www.w3school.com.cn/example/csse_examples.asp'  shape='react' coords='50,20,150,80' target='_blank'  alt='w3c'/> 
+</map>
+<h3>简介</h3>
+<b>定义：</b>层叠式样表（简单而言，html是建筑骨架，css是建筑外表）
+<br>
+<b>组成：</b>选择器和声明<!--（举例：<p>{font-size:50px;color:yellow;})--><br>
+<b>类型:</b>
+<ul>
+<li>id选择器（#id值）</li><li>class类选择器（.类值）</li><li>标签选择器</li>
+</ul><br>
+<b>复杂处理器:</b>
+<ul>
+<li>交集处理器（标签处理器.id处理器或者类处理器）</li><li>并集处理器（英文，）</li><li>后代处理器（空格hover）</li>
+</ul>
+
+
+
+</body>
+</html>
