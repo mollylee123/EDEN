@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'/>
+<title>css学习</title>
+<style>
+#div1{color:#CDCD00;}
+#div2{color:#FFDEAD;}
+#div3{color:#FFB90F;}
+.灰色{color:#ABABAB;}
+h2{text-decoration:underline;font-style:italic;}
+ol{text-align:left;
+line-height:30px;
+font-family:微软雅黑;}
+h1{text-align:center;font-weight:bold;}
+
+</style>
+
+</head>
+<body>
+<h1>CSS教程</h1>
+<hr>
+<div class='灰色'>
+	<h2 id='div1' >css课前准备</h2>
+		学习参考：<br>
+		<a href='https://chuanke.baidu.com/v1731623-101679-173178.html' name='sifangku' >私房库</a>
+		<a href='http://ife.baidu.com/' name='baiduqinaduan'>百度前端学院<a>
+		<a href='http://www.w3school.com.cn/example/csse_examples.asp' name='w3c'>w3school<a>
+		<a href='http://www.runoob.com/' name='runood'>菜鸟教程<a>
+		<a href='https://www.bilibili.com/video/av5862916/' name='xingyue'>星月B站html学习教程</a>
+		等等
+</div>
+<div id='div2'>
+	<h2>css基础知识</h2>
+		<ol class='灰色'>
+			<li>基本格式</li>
+			<li>选择器种类
+				<ul>
+				<li>id选择器</li>
+				<li>类选择器</li>
+				<li>标签选择器</li>
+				</ul>
+			</li>
+			<li>复杂选择器
+				<ul>
+				<li>交集选择器</li>
+				<li>并集选择器</li>
+				<li>后代选择器</li>
+				</ul>
+			</li>
+			<li>扩展延伸尾类选择器（hover）</li>
+		</ol>
+</div>
+<div id='div3'>
+	<h2>css构造文本</h2>
+		<ol class='灰色'>
+			<li>文本缩进（text-indent:20px or 百分比)</li>
+			<li>文本对齐（text-align：left，right，center）</li>
+			<li>文本行高（line-height：20px or 百分比）</li>
+			<li>字间隔（英文字母：word-spacing 中文：letter-spacing）</li>
+			<li>字体风格（font-style：normal；italic；oblique）</li>
+			<li>字体大小（font-size：20px or 百分比）</li>
+			<li>字体颜色（color：直接写颜色单词 or 选取RGB颜色代码）</li>
+			<li>字体（font-family：默认宋体）</li>
+			<li>字体加粗（font-weight：bold）</li>
+			<li>后代继承（比如body元素设置格式，body元素内部嵌套标签格式也均同步改变，除非特别备注覆盖掉）</li>
+			<li>文字下划线（text-decoration：underline；none）</li>
+		</ol>
+</div>
+
+
+
+</body>
+
+</html>
