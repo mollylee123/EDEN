@@ -1,0 +1,60 @@
+
+#div1{
+    background-color:#E5E5E5;
+    margin:20px 450px 20px 20px;
+    padding:10px 20px 40px 20px;   
+    font-family:楷体；
+}
+body{
+    font-family:微软雅黑;
+    background-image:url(图片集/星空背景.png);
+    margin:30px 70px 30px 65px;
+   
+}
+h2{
+    text-shadow:25px 20px 2px grey;
+    text-shadow:10px 10px 10px pink;
+}
+  
+#div6{
+    width:400px;
+    /*display:inline-block;*/
+    float:left;/*用这个两个盒子就可以一样高啦，文字就不用比同水平面的图片低了，诶呀妈呀哭了*/
+    height:200px;
+    margin-left:20px;
+    margin-right:70px;
+    margin-top:0px;
+    
+}
+
+#糟心{
+    width:200px;
+    height:200px;
+}
+#糟心:hover{
+    width:499px;
+    height:499px;
+    transition-delay:1ms;
+    transition-duration:1s;
+}
+#div2{
+    background-color:#CDC1C5;
+    margin:20px 600px 20px 20px;
+    padding:10px 20px 20px 20px;   
+}
+
+#div3{
+    background-color:#CDC1C5;
+    margin:20px 600px 20px 20px;
+    padding:10px 20px 20px 20px;   
+}
+#div5{
+    background-color:#CDC1C5;
+    margin:20px 600px 20px 20px;
+    padding:10px 20px 20px 20px;   
+}
+#div7{
+    background-color:#CDC1C5;
+    margin:20px 600px 20px 20px;
+    padding:10px 20px 20px 20px;   
+}

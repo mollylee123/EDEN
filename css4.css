@@ -1,0 +1,113 @@
+/*textarea{
+    border:0px #FFFFFF solid;
+} 多文本框的边框无法调整为透明，背景颜色无法调整其它颜色，需搜索？*/
+body{
+    width:1000px;
+    background:url(图片集/float3.png);
+    font-family:微软雅黑；
+    
+   
+}
+header{
+    background:#FFCCCC;
+    width:50%;
+    padding:5px 0px 20px 20px;
+    margin-left:50px;
+}
+section{
+    background:#bac8d9;
+    margin:20px 280px 20px 50px;
+    padding:5px 20px 5px 20px;   
+}
+#form-aside{
+    background:#bac8d9;
+    margin-left:50px;
+    padding:20px 15px 20px 25px; 
+    position:absolute;
+    width:250px;
+     
+}
+aside{
+    float:right;
+    margin:20px 50px 0px 0px;
+   
+    
+}
+
+#div1{
+    width:50px;
+    height:300px;
+    text-align:center;
+    line-height:300px;
+    background:green;
+    font-weight:800;
+    float:left;/*div1盒子右浮动，盒子漂浮起来，原处空出被排列中后续div2占*/
+
+}
+
+#div2{
+    width:70px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    background:pink;
+    font-weight:800;
+    float:left;
+    margin:250px 0 0 0;
+    /*clear:right;清除排列中，上一个盒子的右浮动的影响，div2不会补上位置；
+    但是如果left清除，则因为清除的是左边浮动，则盒子还会补上*/
+}
+
+#div3{
+    width:50px;
+    height:230px;
+    background:orange;
+    text-align:center;
+    line-height:230px;
+    font-weight:800;
+    
+    margin:70px 0 0 25px;
+    float:left;
+    position:relative;
+}
+
+#div4{
+    width:50px;
+    height:50px;
+    background:red;
+    font-weight:800;
+    line-height:50px;
+    text-align:center;
+    margin:0 0 0 145px;
+    position:absolute;
+    
+   
+}
+#分区3{
+    height:500px;
+}
+
+#疑问{
+    clear:both;   
+}
+
+.quot{
+    background:url(图片集/问号.png) no-repeat left;
+    background-size: 20px 20px;
+    text-indent:25px;
+    line-height:30px;
+    height:30px;
+}
+.form2{
+    margin-left:10px;
+}
+.form1{
+    display:inline-block;
+    width:70px;
+    text-align:right;
+    margin-left:0;
+}
+ hr{
+    color:grey;
+    border:dotted;
+ }
